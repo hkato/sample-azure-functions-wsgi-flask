@@ -2,6 +2,7 @@
   "scriptFile": "__init__.py",
   "bindings": [
     {
+      "route": "{*route}",
       "authLevel": "function",
       "type": "httpTrigger",
       "direction": "in",
